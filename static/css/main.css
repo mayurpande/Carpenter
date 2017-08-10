@@ -1,3 +1,17 @@
+/**********************************
+WEB FONTS
+**********************************/
+@font-face{
+  font-family: 'MinionPro-Regular';
+  src:url('/static/fonts/MinionPro-Regular.otf') format('opentype');
+}
+
+
+
+/*********************************
+GENERAL
+*********************************/
+
 *{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -17,4 +31,13 @@ body{
   margin:0;
   background-color: #EFA13F;
   color: #2B2E34;
+  font-family: 'MinionPro-Regular';
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width:100%;
 }
