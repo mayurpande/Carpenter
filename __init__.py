@@ -17,8 +17,8 @@ def home():
         sql = "SELECT * FROM `home_page`"
         cursor.execute(sql,(),)
         result = cursor.fetchall()
-        print(result)
-    return "hello-world"
+
+    return render_template('home.html',data=result)
 
 if __name__ == '__main__':
     app.run(debug=True)
