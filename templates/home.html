@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+{% for x in data %}
+  <p><a href="/gallery/{{ x.id }}">{{ x.titles }}</a></p>
+{% endfor %}
+{% endblock %}
