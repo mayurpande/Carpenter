@@ -22,7 +22,12 @@ def home():
 
 @app.route('/gallery/<id>')
 def gallery(id):
-    return '%s' % id
+    with connection.cursor() as cursor:
+        sql = "SELECT * FROM gallery_items WHERE title_id = %s"
+        cursor.execute(sql,(id),)
+        result = cursor.fetchall()
+        print(result)
+    return render_template('gallery.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
