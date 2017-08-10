@@ -20,5 +20,9 @@ def home():
 
     return render_template('home.html',data=result)
 
+@app.route('/gallery/<id>')
+def gallery(id):
+    return '%s' % id
+
 if __name__ == '__main__':
     app.run(debug=True)
