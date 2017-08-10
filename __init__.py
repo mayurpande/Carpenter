@@ -26,8 +26,7 @@ def gallery(id):
         sql = "SELECT * FROM gallery_items WHERE title_id = %s"
         cursor.execute(sql,(id),)
         result = cursor.fetchall()
-        print(result)
-    return render_template('gallery.html')
+    return render_template('gallery.html',data=result)
 
 if __name__ == '__main__':
     app.run(debug=True)
