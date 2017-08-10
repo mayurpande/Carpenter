@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="container">
+    {% for x in data %}
+      <a href="#"><img src="/static/img/{{ x.img_name }}" alt="{{ x.img_name }}" /></a>
+      <p>{{ x.img_caption }}</p>
+    {% endfor %}
+  </div>
+
+{% endblock %}
