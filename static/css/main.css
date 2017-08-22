@@ -42,3 +42,11 @@ a{
 img{
   max-width:100%;
 }
+
+/*****************************
+Home Page
+*****************************/
+#home-page-links{
+  text-align:center;
+  width:100%;
+}
