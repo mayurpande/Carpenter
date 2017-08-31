@@ -25,11 +25,14 @@ html{
 }
 
 body{
-  width:100%;
-  height:100%;
+  /*width:100%;
+  height:100%;*/
+  display:flex;
+  min-height:100vh;
+  flex-direction: column;
   padding:0;
   margin:0;
-  background-color: #EFA13F;
+  background-color: #F7A046;
   color: #2B2E34;
   font-family: 'MinionPro-Regular';
 }
@@ -43,39 +46,44 @@ img{
   max-width:100%;
 }
 
+#content{
+  flex:1;
+}
 /*****************************
 NAVBAR
 ******************************/
-.navbar{
+.navbar,.footer{
   display: -webkit-flex;
   display:flex;
   flex-wrap: wrap;
-  background-color:#fff;
+  justify-content: space-between;
 
 }
 
 .pillar-img{
   width:30%;
-  height:20%;
   margin-top:10px;
   padding-left:5px;
   padding-right:5px;
+
 }
 
-#name{
+#nav-name,#footer-name{
   width:40%;
 }
 
-#name h3{
+#nav-name h3,#footer-name h3{
   text-align:center;
   font-size:0.9em;
 }
 
-.navbar p{
+.navbar p,footer p{
   width:100%;
   text-align: center;
   margin-top:-25px;
 }
+
+
 /*****************************
 Home Page
 *****************************/
