@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+    .container{
+      flex-direction: row;
+      justify-content:space-between;
+      width:80%;
+      flex-wrap: wrap;
+      margin:0 auto;
+    }
+    .gallery-img{
+      width:45%;
+    }
+}
