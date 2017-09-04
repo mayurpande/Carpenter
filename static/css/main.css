@@ -75,6 +75,7 @@ NAVBAR
 #nav-name h3,#footer-name h3{
   text-align:center;
   font-size:0.9em;
+  color: #A21B2E;
 }
 
 .navbar p,footer p{
