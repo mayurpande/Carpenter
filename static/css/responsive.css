@@ -2,11 +2,11 @@
     .container{
       flex-direction: row;
       justify-content:space-between;
-      width:80%;
+      width:75%;
       flex-wrap: wrap;
       margin:0 auto;
     }
     .gallery-img{
-      width:45%;
+      width:40%;
     }
 }
