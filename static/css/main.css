@@ -27,6 +27,7 @@ html{
 body{
   /*width:100%;
   height:100%;*/
+  max-width:1920px;
   display:flex;
   min-height:100vh;
   flex-direction: column;
@@ -75,14 +76,32 @@ NAVBAR
 #nav-name h3,#footer-name h3{
   text-align:center;
   font-size:0.9em;
+}
+
+.navbar p{
+  width:100%;
+  text-align: center;
+  color: #A21B2E;
+
+}
+
+#footer-name{
+  margin-top:7px;
+
+}
+
+#footer-name p{
+  font-size:0.8em;
+  text-align: center;
+}
+
+.navbar a,.footer a{
   color: #A21B2E;
 }
 
-.navbar p,footer p{
-  width:100%;
-  text-align: center;
-  margin-top:-25px;
-}
+
+
+
 
 /*****************************
 gallery
