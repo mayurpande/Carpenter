@@ -19,6 +19,29 @@
 
 }
 
+@media screen and (min-width: 667px) {
+  #footer-name p{
+    font-size:1.4em;
+  }
+  #nav-name h3,#footer-name h3{
+    font-size:1.5em;
+    margin-top:0.7em;
+  }
+
+  #nav-name p{
+    font-size:1.3em;
+  }
+
+  #home-page-links p{
+    font-size:1.3em;
+  }
+
+  #footer-name{
+    margin-top:40px;
+  }
+
+}
+
 @media screen and (min-width: 768px) {
     .container{
       flex-direction: row;
