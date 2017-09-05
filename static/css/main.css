@@ -75,6 +75,7 @@ NAVBAR
 #nav-name h3,#footer-name h3{
   text-align:center;
   font-size:0.9em;
+  color: #A21B2E;
 }
 
 .navbar p,footer p{
@@ -83,6 +84,21 @@ NAVBAR
   margin-top:-25px;
 }
 
+/*****************************
+gallery
+******************************/
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.gallery-img{
+  width:95%;
+  text-align: center;
+  margin:0 auto;
+
+}
 
 /*****************************
 Home Page
