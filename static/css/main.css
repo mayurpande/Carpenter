@@ -75,17 +75,29 @@ NAVBAR
 #nav-name h3,#footer-name h3{
   text-align:center;
   font-size:0.9em;
-  color: #A21B2E;
 }
 
-.navbar p,footer p{
+.navbar p{
   width:100%;
   text-align: center;
+  color: #A21B2E;
+
 }
 
 #footer-name{
-  margin-top:15px;
+  margin-top:7px;
+
 }
+
+#footer-name p{
+  font-size:0.8em;
+}
+
+.navbar a,.footer a{
+  color: #A21B2E;
+}
+
+
 
 
 
