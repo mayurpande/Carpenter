@@ -43,6 +43,11 @@ a{
   color:#2B2E34;
 }
 
+a:hover{
+  color: #A21B2E;
+
+}
+
 img{
   max-width:100%;
 }
