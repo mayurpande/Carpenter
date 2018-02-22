@@ -1,0 +1,163 @@
+%!Adobe-FontList 1.18
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BodoniOrnamentsITCTT
+FamilyName:Bodoni Ornaments
+StyleName:Regular
+MenuName:Bodoni Ornaments
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Bodoni Ornaments
+WritingScript:Roman
+OutlineFileName:\Bodoni Ornaments.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:72492
+FileModTime:1470541724
+NameArray:0,Mac,4,Bodoni Ornaments
+NameArray:0,Win,1,Bodoni Ornaments
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Clarendon
+FamilyName:Clarendon
+StyleName:Roman
+MenuName:Clarendon
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Clarendon
+WritingScript:Roman
+OutlineFileName:\Clare
+DataFormat:POSTResource
+UsesStandardEncoding:yes
+isCFF:no
+hasSVG:no
+FileLength:38294
+FileModTime:793902039
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Clarendon
+OutlineFileName:\Clarendon
+ResourceID:14753
+MacStyle:0
+FileLength:28676
+FileModTime:1316082496
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:Clarendon-Bold
+OutlineFileName:\Clarendon
+ResourceID:14753
+MacStyle:1
+FileLength:28676
+FileModTime:1316082496
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GoldenCockerelITCTTItalic
+FamilyName:GoldenCockerelITC TT
+StyleName:Italic
+MenuName:GoldenCockerelITC TT
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:GoldenCockerelITC TT Italic
+WritingScript:Roman
+OutlineFileName:\GoldenCockerelITCTT
+DataFormat:sfntResource
+ResourceID:2607
+hasSVG:no
+FileLength:132903
+FileModTime:1091466135
+NameArray:0,Mac,4,GoldenCockerelITC TT Italic
+NameArray:0,Win,1,GoldenCockerelITC TT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GoldenCockerelITCTTRoman
+FamilyName:GoldenCockerelITC TT
+StyleName:Roman
+MenuName:GoldenCockerelITC TT
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:GoldenCockerelITC TT Roman
+WritingScript:Roman
+OutlineFileName:\GoldenCockerelITCTT
+DataFormat:sfntResource
+ResourceID:2667
+hasSVG:no
+FileLength:132903
+FileModTime:1091466135
+NameArray:0,Mac,4,GoldenCockerelITC TT Roman
+NameArray:0,Win,1,GoldenCockerelITC TT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:GoldenCockerelITCTT-Italic
+OutlineFileName:\GoldenCockerelITCTT
+ResourceID:2607
+MacStyle:0
+FileLength:132903
+FileModTime:1091466135
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:GoldenCockerelITCTT-Roman
+OutlineFileName:\GoldenCockerelITCTT
+ResourceID:2667
+MacStyle:0
+FileLength:132903
+FileModTime:1091466135
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:218640
+FileModTime:1381748900
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+

@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="container">
+    {% for x in data %}
+      <div class="gallery-img">
+        <img src="/static/img/{{ x.img_name }}" alt="{{ x.img_name }}" />
+        <p>{{ x.img_caption }}</p>
+      </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}
